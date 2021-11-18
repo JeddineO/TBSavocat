@@ -71,6 +71,9 @@ ul li a:hover{
 #mypict img{
     height: 70vh;
 }
+main{
+    height: 100vh;
+}
 #text{
     background: rgba(255, 255, 255, 0.356);
     margin-top: 100px;
@@ -83,9 +86,7 @@ ul li a:hover{
     color: #050505;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-main{
-    height:100vh;
-}
+
 #text-box{
     color: #fff;
     bottom: 8%;

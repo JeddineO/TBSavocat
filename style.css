@@ -83,6 +83,9 @@ ul li a:hover{
     color: #050505;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+main{
+    height:100vh;
+}
 #text-box{
     color: #fff;
     bottom: 8%;
@@ -126,8 +129,7 @@ footer{
     color: white;
     font-weight: 200;
     padding: 40px 0px;
-    position: fixed;
-    bottom: 0px;
+   
     
 }
 footer ul{

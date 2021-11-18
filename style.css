@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: rgba(0, 0, 0, 0.7) url(/pexels-cottonbro-5310729.jpg) top left;
+    background-position: 0px -100px;
+    background-size: 100% auto;
+    background-blend-mode: darken;
+
+    background-repeat: no-repeat;
+   
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    height: 50PX;
+    background-color:antiquewhite;
+}
+img
+{
+    margin-top: 70px;
+    height: 200px;
+    cursor: pointer;
+    z-index: 1;
+}
+.nav-area{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+ul li a{
+  
+    color:#6b695b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li a:hover{
+    cursor: pointer;
+    color: #000;
+
+}
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #7a7071;
+}
+#mypict{
+    padding-left: 200px;
+    
+}
+#mypict img{
+    height: 70vh;
+}
+#text{
+    background: rgba(255, 255, 255, 0.356);
+    margin-top: 100px;
+    font-size: large;
+    font-weight:bolder;
+    border-radius: 20px;
+}
+#text span{
+    font-size:x-large;
+    color: #050505;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
